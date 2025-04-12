@@ -1,5 +1,7 @@
 import hashlib
 import os
+import sys
+import time
 
 
 def calculate_file_hash(file_path):
