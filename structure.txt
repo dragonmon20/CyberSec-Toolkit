@@ -1,0 +1,62 @@
+Folder PATH listing for volume New Volume
+Volume serial number is CE33-89B7
+D:.
+¦   LICENSE
+¦   profile.md
+¦   README.md
+¦   SECURITY.md
+¦   structure.txt
+¦   
++---Expolitation tools
+¦   +---SQL
+¦           Injection.py
+¦           injectionV2.py
+¦           
++---Malware tools
+¦   +---back-doot
+¦   ¦       backDoor.cpp
+¦   ¦       backDoor.h
+¦   ¦       main.cpp
+¦   ¦       
+¦   +---Ransomwares
+¦       +---PowerShell
+¦               decrypt.ps1
+¦               encrypt.ps1
+¦               
++---network
+¦   +---network-tools
+¦       +---anonymous-tools
+¦       ¦       anonymous.py
+¦       ¦       readme.md
+¦       ¦       
+¦       +---DNS
+¦       ¦   ¦   readme.md
+¦       ¦   ¦   
+¦       ¦   +---DOS-attack
+¦       ¦           Dos-Attack.py
+¦       ¦           
+¦       +---scanner
+¦       ¦   +---C++
+¦       ¦   ¦       readme.md
+¦       ¦   ¦       scanner.cpp
+¦       ¦   ¦       
+¦       ¦   +---python
+¦       ¦           readme.md
+¦       ¦           scanner.py
+¦       ¦           
+¦       +---wifi
+¦               Deauthenticator.py
+¦               
++---Tools
+¦   +---Disable-Defender
+¦           Disable-Defender.bat
+¦           readme.md
+¦           
++---Utility Tools
+    +---file cracker
+    ¦       fileCracker.py
+    ¦       readme.md
+    ¦       
+    +---hashReader
+            hashReader.py
+            
