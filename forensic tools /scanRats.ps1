@@ -1,6 +1,6 @@
 # ========================================================
 # 🛡️ Enhanced Red Team Forensic Scanner - Windows Edition
-# ✍️ Author: Enhanced by Claude
+# ✍️ Author: Enhanced by Claude, made my Amr Khaled
 # 🗓️ Version: 2.1 (RAT Detection Enhanced)
 # ========================================================
 
