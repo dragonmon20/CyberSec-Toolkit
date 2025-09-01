@@ -168,4 +168,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-© 2025 [Amr Khaled Ahmed](https://github.com/Amr-Khaled-Ahmed)
+© 2025 Shahid shaikh
