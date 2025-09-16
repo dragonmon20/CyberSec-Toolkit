@@ -2,9 +2,7 @@
 
 ![Security](https://img.shields.io/badge/Security-Testing-red)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Purpose](https://img.shields.io/badge/Purpose-Educational-green)
 
-⚠️ **DISCLAIMER**: This repository contains cybersecurity tools intended **STRICTLY** for educational purposes, security research, and authorized penetration testing. Usage of these tools against any systems without explicit permission is illegal and unethical.
 
 ## 📋 Repository Overview
 
